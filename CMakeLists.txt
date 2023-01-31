@@ -1,5 +1,11 @@
 cmake_minimum_required(VERSION 3.1)
 
+if(ESP_PLATFORM)
+   # Build nlohmann-json as an ESP-IDF component
+   idf_component_register(INCLUDE_DIRS include single_include)
+   return()
+endif()
+
 ##
 ## PROJECT
 ## name and version

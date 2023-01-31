@@ -1,3 +1,5 @@
+# This is nlohmann-json library forked and adapted for ESP-IDF by Dmitri Kuzmichev
+
 [![JSON for Modern C++](docs/json.gif)](https://github.com/nlohmann/json/releases)
 
 [![Build Status](https://ci.appveyor.com/api/projects/status/1acb366xfyg3qybk/branch/develop?svg=true)](https://ci.appveyor.com/project/nlohmann/json)
